@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from tgstation at commit https://github.com/tgstation/tgstation/pull/94997/commits/ffa07f506823033fe3f35f45defb6f16380527df, NT, Cargo, Syndicate, blue, green and yellow banners modified by _Svist_. (Discord) ",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "banner"
+    },
+    {
+      "name": "banner-red"
+    },
+    {
+      "name": "banner-blue"
+    },
+    {
+      "name": "banner-yellow"
+    },
+    {
+      "name": "banner-green"
+    },
+    {
+      "name": "banner_engineering"
+    },
+    {
+      "name": "banner_medical"
+    },
+    {
+      "name": "banner_science"
+    },
+    {
+      "name": "banner_cargo"
+    },
+    {
+      "name": "banner_security"
+    },
+    {
+      "name": "banner_revolution"
+    },
+    {
+      "name": "banner_syndicate"
+    }
+  ]
+}

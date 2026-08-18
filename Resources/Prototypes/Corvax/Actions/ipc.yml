@@ -1,0 +1,27 @@
+- type: entity
+  id: ActionDrainBattery
+  name: Drain battery
+  description: Drain battery
+  components:
+  - type: Action
+    itemIconStyle: NoItem
+  - type: InstantAction
+    event: !type:ToggleDrainActionEvent
+  - type: Sprite
+    sprite: Corvax/Interface/ipcactions.rsi
+    layers:
+    - state: on
+
+- type: entity
+  id: ActionIpcChangeFace
+  name: Change face
+  description: Change the IPC monitor face
+  components:
+  - type: Action
+    itemIconStyle: NoItem
+  - type: InstantAction
+    event: !type:OpenIpcFaceActionEvent
+  - type: Sprite
+    sprite: Interface/Actions/actions_ai.rsi
+    layers:
+    - state: crew_monitor

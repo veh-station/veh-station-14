@@ -1,0 +1,15 @@
+- type: job
+  id: Visitor
+  name: job-name-visitor
+  description: job-description-visitor
+  playTimeTracker: JobVisitor
+  icon: JobIconVisitor
+  setPreference: false
+  overrideConsoleVisibility: true
+  # Corvax-MRP-Start
+  # access:
+  # - Maintenance
+  # Corvax-MRP-End
+  extendedAccess:
+  - External
+  - Maintenance # Corvax-MRP

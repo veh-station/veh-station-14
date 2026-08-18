@@ -1,0 +1,69 @@
+<Document>
+  # Разница давления
+  Разница давлений, или ΔP, это разница давлений между двумя областями.
+  Эта разница давлений может оказывать воздействие на объекты между двумя областями, нанося [bold]повреждения от давления[/bold] некоторым объектам на своем пути.
+
+  Различные стеклянные изделия, такие как окна, раздвижные окна и ставни, могут получить повреждения от перепадов давления, если разница давлений между двумя сторонами достаточно велика.
+  Это повреждение может привести к разрушению этих объектов, в результате чего газ сможет свободно циркулировать между двумя участками.
+
+  Для разных типов объектов существуют разные пороговые значения ΔP, которые они могут выдержать до разрушения.
+  Как правило, чем прочнее стекло, тем выше порог. Для тонких предметов порог будет ниже.
+
+  Такие объекты, как стены, шлюзы и пожарные шлюзы, не подвержены влиянию ΔP.
+
+  ## Стандартное стекло и предметы
+  <Box>
+    <GuideEntityEmbed Entity="Window" Caption=""/>
+    <GuideEntityEmbed Entity="WindowDirectional" Caption=""/>
+    <GuideEntityEmbed Entity="Windoor" Caption=""/>
+    <GuideEntityEmbed Entity="ShuttersWindow" Caption=""/>
+    <GuideEntityEmbed Entity="InflatableWall" Caption=""/>
+  </Box>
+
+  Стандартноые полноразмерные окна и другие хрупкие предметы могут выдерживать перепад давления до [color=orange][protodata="Window" comp="DeltaPressure" member="MinPressureDelta"/] кПа[/color], прежде чем начнут трескаться.
+
+  Окна размером с четверть, например, направленные окна, могут выдерживать ΔP до [color=orange][protodata="WindowDirectional" comp="DeltaPressure" member="MinPressureDelta"/] кПа[/color] прежде чем начнут трескаться.
+
+  ## Укреплённое стекло и предметы
+  <Box>
+    <GuideEntityEmbed Entity="ReinforcedWindow" Caption=""/>
+    <GuideEntityEmbed Entity="WindowReinforcedDirectional" Caption=""/>
+    <GuideEntityEmbed Entity="WindoorSecure" Caption=""/>
+    <GuideEntityEmbed Entity="ShuttleWindow" Caption=""/>
+  </Box>
+
+  Укреплённые полноразмерные окна могут выдерживать ΔP до [color=orange][protodata="ReinforcedWindow" comp="DeltaPressure" member="MinPressureDelta"/] кПа[/color] прежде чем начнут трескаться.
+
+  Укреплённые окна размером с четверть могут выдерживать ΔP до [color=orange][protodata="WindowReinforcedDirectional" comp="DeltaPressure" member="MinPressureDelta"/] кПа[/color] прежде чем начнут трескаться.
+
+  ## Плазменное/Урановое стекло
+  <Box>
+    <GuideEntityEmbed Entity="PlasmaWindow" Caption=""/>
+    <GuideEntityEmbed Entity="PlasmaWindowDirectional" Caption=""/>
+    <GuideEntityEmbed Entity="WindoorPlasma" Caption=""/>
+    <GuideEntityEmbed Entity="UraniumWindow" Caption=""/>
+    <GuideEntityEmbed Entity="UraniumWindowDirectional" Caption=""/>
+    <GuideEntityEmbed Entity="WindoorUranium" Caption=""/>
+  </Box>
+
+  Плазменные и Урановые окна могут выдерживать ΔP до [color=orange][protodata="PlasmaWindow" comp="DeltaPressure" member="MinPressureDelta"/] кПа[/color] прежде чем начнут трескаться.
+
+  Плазменные и Урановые окна размером с четверть могут выдерживать ΔP до [color=orange][protodata="PlasmaWindowDirectional" comp="DeltaPressure" member="MinPressureDelta"/] кПа[/color] прежде чем начнут трескаться.
+
+  ## Укреплённое Плазменное/Урановое Стекло
+
+  <Box>
+    <GuideEntityEmbed Entity="ReinforcedPlasmaWindow" Caption=""/>
+    <GuideEntityEmbed Entity="PlasmaReinforcedWindowDirectional" Caption=""/>
+    <GuideEntityEmbed Entity="WindoorSecurePlasma" Caption=""/>
+    <GuideEntityEmbed Entity="ReinforcedUraniumWindow" Caption=""/>
+    <GuideEntityEmbed Entity="UraniumReinforcedWindowDirectional" Caption=""/>
+    <GuideEntityEmbed Entity="WindoorSecureUranium" Caption=""/>
+
+  </Box>
+
+  Укрепленные Плазменные и Урановые окна могут выдерживать ΔP до [color=orange][protodata="ReinforcedPlasmaWindow" comp="DeltaPressure" member="MinPressureDelta"/] кПа[/color] прежде чем начнут трескаться.
+
+  Укрепленные Плазменные и Урановые окна размером с четверть могут выдерживать ΔP до [color=orange][protodata="PlasmaReinforcedWindowDirectional" comp="DeltaPressure" member="MinPressureDelta"/] кПа[/color] прежде чем начнут трескаться.
+
+</Document>

@@ -1,0 +1,11 @@
+- type: entity
+  id: SuitStorageSecPilot
+  parent: SuitStorageBase
+  suffix: Security
+  components:
+  - type: EntityTableContainerFill
+    containers:
+      entity_storage: !type:NestedSelector
+        tableId: FillLockerPilotHarduit
+  - type: AccessReader
+    access: [["Security"]]
