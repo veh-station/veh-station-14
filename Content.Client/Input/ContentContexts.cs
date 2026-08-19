@@ -37,6 +37,7 @@ namespace Content.Client.Input
             common.AddFunction(ContentKeyFunctions.ZoomOut);
             common.AddFunction(ContentKeyFunctions.ZoomIn);
             common.AddFunction(ContentKeyFunctions.ResetZoom);
+            common.AddFunction(ContentKeyFunctions.VoiceChatPTT);
             common.AddFunction(ContentKeyFunctions.InspectEntity);
             common.AddFunction(ContentKeyFunctions.InspectServerComponent);
             common.AddFunction(ContentKeyFunctions.InspectClientComponent);

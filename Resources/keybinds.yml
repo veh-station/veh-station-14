@@ -85,6 +85,10 @@ binds:
 - function: ResetZoom
   type: State
   key: NumpadNum5
+# Voice chat (prototype)
+- function: VoiceChatPTT
+  type: State
+  key: V
 # Misc
 - function: ShowEscapeMenu
   type: State
